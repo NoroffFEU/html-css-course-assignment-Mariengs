@@ -1,0 +1,303 @@
+*, *:before, *:after 
+{box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+    margin: 0%; 
+}
+
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #0A3641;
+    height: 255px;
+    width: auto;
+    margin: 0%;
+}
+    
+
+.logo {
+    display: flex;
+    text-align: left;
+    width: 326px;
+    height: 176px;
+    margin: 0 auto;
+    overflow-x: visible;
+    margin-left: 50px;
+    overflow-y: visible;
+    margin-top: 50px;
+
+}
+
+header search input {
+    width: 650px;
+    height: 54px;
+    margin-top: 200px;
+
+}
+
+.profileicons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.profileicon {
+    display: flex;
+    font-size: 35px;
+
+}
+
+.profilebutton {
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+
+}
+
+.carticon {
+    display: flex;
+    font-size: 35px;
+}
+
+.cartbutton {
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.navheader {
+    background-color: #0A3641;
+    height: 60px;
+    width: auto;
+}
+
+.navline > ul { 
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    padding: 1rem;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    
+}
+
+main a {
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+main {
+    background-color: #FFF;
+    flex: 1;
+    width: auto;
+    height: 1242px;
+}
+
+.jackets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;    
+}
+
+.jacketbutton {
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.jackets img {
+    width: 270px;
+    height: 345px;
+    margin: 50px;
+}
+
+
+.follow {
+    padding: 10px;
+}
+
+.logofooter {
+    width: 326px;
+    height: 176px;
+    margin: auto;
+    overflow-x: visible;
+    margin-left: 385px;
+    overflow-y: visible;
+    margin-top: 40px;
+    padding-top: 40px;
+
+}
+
+/*PRODUCTPAGE*/
+
+.productcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.jacket2 img {
+    justify-content: flex-start;
+    width: 270px;
+    height: 345px;
+    margin: 50px;
+
+}
+
+.infotext {
+    padding-top: 60px;
+}
+
+.sizebuttons {
+    display: flex;
+    justify-content: center
+
+}
+
+
+/*ABOUTPAGE*/
+
+.aboutpage {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.aboutheader {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+    margin: 0%;
+
+}
+
+.logoabt {
+    width: 326px;
+    height: 176px;
+    margin: 0 auto;
+    overflow-x: visible;
+    margin-left: 50px;
+    overflow-y: visible;
+    margin-top: 50px;
+}
+
+
+.aboutnav{
+    background-color: #0A3641;
+    height: 60px;
+    width: auto;
+}
+
+.aboutnav > ul{
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    padding: 1rem;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+}
+
+.aboutmain {
+    
+    
+}
+
+.abtcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.abttext {
+    flex: 1;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.abtimg {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+/*HELP-CENTERPAGE*/ 
+
+.help-page {
+
+
+}
+
+.helptext {
+    padding-left: 10px;
+}
+
+.contacttext {
+    padding-left: 10px;
+}
+.helpicons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.helpicons i {
+    margin-bottom: 10px;
+}
+
+.mailicon {
+    height: 30px;
+    width: 45px;
+    font-size: 25px;
+}
+
+.phoneicon {
+    height: 30px;
+    width: 45px;
+    font-size: 25px;
+}
+
+
+/*CART*/
+
+/*CHECKOUTPAGE*/
+
+
