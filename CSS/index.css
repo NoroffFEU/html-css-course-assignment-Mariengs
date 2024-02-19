@@ -1,8 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    
+    margin: 0;    
 }
+    
 footer {
     background-color: #0A3641;
 }
@@ -12,4 +13,56 @@ p {
 }
 h1 {
     text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+}
+
+.iconsheader {
+    color: #0A3641;
+
+    
+}
+.navbar {
+    background-color: #0A3641;
+    text-decoration: none;
+    height: 50px;
+}
+
+.navitem1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+
+}
+.bilder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+
+}
+.navfooter {
+    display: flex;
+    justify-content: right;
+    color: white;
+    
+
+}
+.logofooter {
+    width: 200px;
+    display: flex;
 }
