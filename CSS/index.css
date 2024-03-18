@@ -1,7 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: 16% 14%;
     margin: 0;    
+}
+@media only screen and (max-width: 768px) {
+    body {     
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0; 
+    }
 }
     
 footer {
@@ -10,9 +17,11 @@ footer {
 
 p {
     text-transform: uppercase;
+    max-width: 575px;
 }
 h1 {
     text-transform: uppercase;
+    padding-left: 10px;
 }
 a {
     text-decoration: none;
@@ -20,7 +29,8 @@ a {
 }
 
 .logo {
-    width: 200px;
+    width: 16%;
+    padding: 20px;
 }
 
 .iconsheader {
@@ -37,32 +47,51 @@ a {
 .navitem1 {
     display: inline-block;
     color: white;
-    text-align: center;
+    align-items: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.image {
-    width: 200px;
-    height: auto;
-
-}
-.bilder {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 50px
-
-}
 .navfooter {
     display: flex;
     justify-content: right;
     color: white;
-    
 
 }
 .logofooter {
-    width: 200px;
+    width: 16%;
     display: flex;
+}
+
+/* ABOUTPAGE*/
+
+.aboutcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.abouttext {
+    font-size: 16% 14%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutimg img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+}
+
+/* ABOUTPAGE*/
+
+/* CONTACTPAGE*/
+
+/* CHECKOUTPAGE*/
+
+.orderbutton {
+    color:black;
+}
+.container1 {
+    padding: 10px ;
 }
