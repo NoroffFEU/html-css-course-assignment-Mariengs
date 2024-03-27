@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="payment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b11d6cf7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/payment.css">
+    <title>Payment</title>
+</head>
+<body>
+    <header>
+        <img src="/images/RainyDays_Logo-kopi.png" class="logo" alt="Logo for Rainydays">
+        <form action="/search" method="get">
+             <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
+             <button type="submit">Search</button>
+        </form>
+        <div class="icons.header">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <nav>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about-us.html">About</a></li>
+             <li>Explore</li>
+             <li>Account</li>
+             <li><a href="contact.html">Contact</a></li>
+         </ul>
+        </nav>
+     </header>
+    
+     <main>
+        <input type="name" name="lastName" placeholder="Last Name" required>
+        <input type="name" name="firstName" placeholder="First Name" required><br><br>
+        <input type="text" name="cardNumber" placeholder="Card number" pattern="[0-9]{13,16}" title="Please provide a valid credit card number (between 13 and 16 digits)" required><br>
+        <select name="expiryMonth" id="utløpsmåned">
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <select name="expiryYear" id="utløpsår">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+        </select>
+        <input type="text" name="ccv" placeholder="CCV" pattern="[0-9]{3,4}" title="Please provide a valid CCV" required><br><br>
+        <button><a href="paymentsuccess.html">Place order</a></button>
+
+     </main>
+     <footer>
+        <p>Follow us</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <img src="/images/logohvit.png" class="logo" alt="Rainydays logo">
+
+        <div class="navfooter">
+            <nav>
+                <ul>
+                    <li>About</li>
+                    <li>About us</li>
+                    <li>Careers</li>
+                    <li>Sustainability</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Account</li>
+                    <li>Log In</li>
+                    <li>Register</li>
+                    <li>Membership</li>
+                </ul>
+            </nav>
+            <nav>
+                
+                <ul>
+                    <li>Privacy</li>
+                    <li>Cookies</li>
+                    <li>Cookies Settings</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                     <li>Costumer Care</li>
+                    <li>Help Center</li>
+                    <li>Payment</li>
+                    <li>Shipping</li>
+                    <li>Return</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

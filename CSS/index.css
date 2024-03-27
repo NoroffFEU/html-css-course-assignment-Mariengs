@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16% 14%;
+    margin: 0;    
+}
+@media only screen and (max-width: 568px) {
+    body {     
+    font-family: Arial;
+    font-size: 16% 14%;
+    margin: 0; 
+    }
+}
+
+
+p {
+    text-transform: uppercase;
+}
+h1 {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+button a {
+    font-size: 16px 14px;
+    color: black;
+}
+
+
+.containerheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    padding: 10px 20px;
+}
+
+.logoheader img {
+    width: 32%;
+    padding: 20px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.searchbar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.iconsheader {
+    margin-left: auto;
+}
+
+.iconsheader i{
+    display: inline-block;
+    color: #0A3641;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerheader {
+      padding: 10px;
+    }
+}
+ header nav {
+    background-color: #0A3641;
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0 50px;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 568px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    header li {
+      margin: 10px 0;
+    }
+  }
+
+.containermain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 568px){
+    .containermain {
+        grid-template-columns:  1fr;
+    }
+}
+
+footer {
+    background-color: #0A3641;
+
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logofooter img {
+    width: 24%;
+    margin-left: 4%;
+}
+
+.iconsfooter {
+    color: white;
+    margin-left: 12%;
+}
+
+.right-section {
+    display: flex;
+}
+
+footer nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: table-row;
+}
+
+footer nav ul li:not(:last-child) {
+    margin-right: 10px;
+}
