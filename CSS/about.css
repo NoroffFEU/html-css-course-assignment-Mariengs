@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16% 14%;
+    margin: 0;    
+}
+@media only screen and (max-width: 768px) {
+    body {     
+    font-family: Arial;
+    font-size: 16% 14%;
+    margin: 0; 
+    }
+
+    h1 {
+        font-size: 16% 14%
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+button a {
+    font-size: 16px 14px;
+    color: black;
+}
+
+
+.containerheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    padding: 10px 20px;
+}
+
+.logoheader img {
+    width: 32%;
+    padding: 20px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.searchbar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.iconsheader {
+    margin-left: auto;
+}
+
+.iconsheader i{
+    display: inline-block;
+    color: #0A3641;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerheader {
+      padding: 10px;
+    }
+}
+ header nav {
+    background-color: #0A3641;
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0 50px;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    header li {
+      margin: 10px 0;
+    }
+  }
+.aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+}
+
+.abouttext {
+    font-size: 16% 14%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutimg img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0A3641;
+}
+
+.logofooter {
+    width: 16%;
+    display: flex;
+}
+.itemsfooter {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.navfooter {
+    display: flex;
+}

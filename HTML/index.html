@@ -10,86 +10,131 @@
 </head>
 <body>
     <header>
-       <img src="/images/RainyDays_Logo-kopi.png" class="logo" alt="Logo for Rainydays">
-       <form action="/search" method="get">
-            <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
-            <button type="submit">Search</button>
-       </form>
-       
-    <div class="iconsheader">
-       <i class="fa-solid fa-user"></i>
-       <i class="fa-solid fa-cart-shopping"></i>
+        <div class="containerheader">
+            <div class="logoheader">
+                <img src="/images/RainyDays_Logo-kopi.png" alt="Logo for Rainydays">
+            </div>
+            <div class="searchbar">
+                <form action="/search" method="get">
+                <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
+                <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="iconsheader">
+                <i class="fa-solid fa-user"></i>
+                <button> 
+                    <i class="fa-solid fa-cart-shopping"> </i>
+                </button>
+            </div>
+        </div>
+      
+        <div class="navheader">
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html" >About</a></li>
+                <li><a href="index.html">Explore</a></li>
+                <li><a href="index.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-       
-       <nav class="navbar">
-        <ul>
-            <li class="navitem1"><a href="index.html">Home</a></li>
-            <li class="navitem1"><a href="about-us.html" >About</a></li>
-            <li class="navitem1">Explore</li>
-            <li class="navitem1">Account</li>
-            <li class="navitem1"><a href="contact.html">Contact</a></li>
-        </ul>
-       </nav>
 
     </header>
     <main>
         <h1>Welcome to Rainydays</h1>
     
-        <div class="bilder">
-            <img src="/images/RainyDays_Jacket1.jpg" class="image" alt="Grey, orange and black worker jacket.">
-            <img src="/images/RainyDays_Jacket2.jpg" class="image" alt="Black run jacket.Thin fabric.">
-            <img src="/images/RainyDays_Jacket3.jpg" class="image" alt="Red and black run jacket. Thin fabric">
-            <img src="/images/RainyDays_Jacket4.jpg" class="image" alt="Overall black jacket with white details. Thick fabric.">
-            <img src="/images/RainyDays_Jacket5.jpg" class="image" alt="Grey jacket. Medium thin fabric.">
-            <img src="/images/RainyDays_Jacket6.jpg" class="image" alt="Black and gray jacket. Thick fabric.">
+        <div class="containermain">
+            <div class="image">
+                <img src="/images/RainyDays_Jacket1.jpg" alt="Grey, orange and black worker jacket.">
+                <p>scott jacket</p>
+                <p>799 kr</p>
+            </div>
+            <div class="image">
+                <button><a href="product-page.html">
+                    <img src="/images/RainyDays_Jacket2.jpg" alt="Black run jacket.Thin fabric.">
+                    <p>scott rs run jacket</p>
+                    <p>799 kr</p>
+                </a></button>
+            </div>
+        
+            <div class="image">
+                <img src="/images/RainyDays_Jacket3.jpg" alt="Red and black run jacket. Thin fabric">
+                <p>scott rc run jacket</p>
+                <p>799 kr</p>
+            </div>
+            <div class="image">
+                <img src="/images/RainyDays_Jacket4.jpg" alt="Overall black jacket with white details. Thick fabric.">
+                <p>scott biker jacket</p>
+                <p>799 kr</p>
+            </div>
+                <div class="image">
+                <img src="/images/RainyDays_Jacket5.jpg" alt="Grey jacket. Medium thin fabric.">
+                <p>scott biker jacket</p>
+                <p>799 kr</p>
+            </div>
+            <div class="image">
+                <img src="/images/RainyDays_Jacket6.jpg" alt="Black and gray jacket. Thick fabric.">
+                <p>scott jacket</p>
+                <p>799 kr</p>
+            </div>
         </div>
     </main>
     
-    <footer>
-        <p>Follow us</p>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <img src="/images/logohvit.png" class="logofooter" alt="Rainydays logo">
-    
-    <div class="navfooter">
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>About us</li>
-                <li>Careers</li>
-                <li>Sustainability</li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li>Account</li>
-                <li>Log In</li>
-                <li>Register</li>
-                <li>Membership</li>
-            </ul>
-        </nav>
-        <nav>
-            
-            <ul>
-                <li>Privacy</li>
-                <li>Cookies</li>
-                <li>Cookies Settings</li>
-                <li>Privacy Policy</li>
-                <li>Terms & Conditions</li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                 <li>Costumer Care</li>
-                <li>Help Center</li>
-                <li>Payment</li>
-                <li>Shipping</li>
-                <li>Return</li>
-            </ul>
-        </nav>
-    </div>
+<footer>
+    <div class="containerfooter">
+        <div class="left-section">
+        <div class="logofooter">
+            <img src="/images/logohvit.png" alt="Rainydays logo"> 
+           <div class="iconsfooter">
+            <p>Follow us</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            </div> 
 
+        </div>
+        </div>
+        
+        <div class="right-section">
+        <div class="navfooter">
+                <nav>
+                    <ul>
+                        <h5>About</h5>
+                        <li>About us</li>
+                        <li>Careers</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <h5>Account</h5>
+                        <li>Log In</li>
+                        <li>Register</li>
+                        <li>Membership</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <h5>Privacy</h5>
+                        <li>Cookies</li>
+                        <li>Cookies Settings</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <h5>Costumer Care</h5>
+                        <li>Help Center</li>
+                        <li>Payment</li>
+                        <li>Shipping</li>
+                        <li>Return</li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

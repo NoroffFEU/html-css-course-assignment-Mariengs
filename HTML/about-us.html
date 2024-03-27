@@ -5,38 +5,50 @@
     <meta name="description" content="About us page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9b11d6cf7e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/about.css">
     <title>About</title>
 </head>
 <body>
     <header>
-        <img src="/images/RainyDays_Logo-kopi.png" class="logo" alt="Logo for Rainydays">
-        <form action="/search" method="get">
-             <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
-             <button type="submit">Search</button>
-        </form>
-        <div class="iconsheader">
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-         </div>
-            
-            <nav class="navbar">
-             <ul>
-                 <li class="navitem1"><a href="index.html">Home</a></li>
-                 <li class="navitem1"><a href="about-us.html" >About</a></li>
-                 <li class="navitem1">Explore</li>
-                 <li class="navitem1">Account</li>
-                 <li class="navitem1"><a href="contact.html">Contact</a></li>
-             </ul>
-            </nav>
-     </header>
+        <div class="containerheader">
+            <div class="logoheader">
+                <img src="/images/RainyDays_Logo-kopi.png" alt="Logo for Rainydays">
+            </div>
+            <div class="searchbar">
+                <form action="/search" method="get">
+                <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
+                <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="iconsheader">
+                <i class="fa-solid fa-user"></i>
+                <button> 
+                    <i class="fa-solid fa-cart-shopping"> </i>
+                </button>
+            </div>
+        </div>
+      
+        <div class="navheader">
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html" >About</a></li>
+                <li><a href="index.html">Explore</a></li>
+                <li><a href="index.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    </header>
+    
     <main>
         <h1>about us</h1>
 
        <div class="aboutcontainer">
          <div class="abouttext">
-            <p>Welcome to RainyDays - your ultimate destination for outdoor clothing that keeps you dry, comfortable, and stylish no matter the weather! </p><p> At RainyDays, we understand the importance of staying protected and looking great while embracing the great outdoors.</p>
-            <p>RainyDays offers a wide range of high-quality outdoor clothing and accessories designed to withstand even the toughest weather conditions. </p><p> Whether you're an avid hiker, a dedicated cyclist, or simply enjoy exploring nature, we have the perfect gear for you.</p><br>
+            <p>Welcome to RainyDays - your ultimate destination for outdoor clothing that keeps you dry, comfortable, and stylish no matter the weather At RainyDays, we understand the importance of staying protected and looking great while embracing the great outdoors.</p>
+            <p>RainyDays offers a wide range of high-quality outdoor clothing and accessories designed to withstand even the toughest weather conditions. Whether you're an avid hiker, a dedicated cyclist, or simply enjoy exploring nature, we have the perfect gear for you.</p>
             <p>Our collection includes waterproof jackets, durable hiking boots, moisture-wicking base layers, and much more. </p><p> We partner with top brands known for their exceptional craftsmanship and innovative technologies, ensuring that every product you purchase from RainyDays meets the highest standards of performance and reliability.</p>
             <p>But RainyDays is more than just a store – it's a community of outdoor enthusiasts who share a passion for adventure and exploration. Our blog features expert tips, gear reviews, and inspiring stories from fellow adventurers to help you make the most of your outdoor experiences.</p>
             <p>Shopping at RainyDays is easy and convenient. Simply browse our website from the comfort of your home, choose the perfect gear for your next outdoor adventure, and enjoy fast and reliable shipping to your doorstep. Our friendly customer service team is always here to assist you with any questions or concerns you may have</p>
@@ -47,17 +59,21 @@
          </div>
        </div> 
     </main>
-    <footer>
-        <p>Follow us</p>
+    
+<footer>
+        
+    <div class="itemsfooter">
+         <img src="/images/logohvit.png" class="logofooter" alt="Rainydays logo">
+         <p>Follow us</p>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-x-twitter"></i>
         <i class="fa-brands fa-instagram"></i>
-        <img src="/images/logohvit.png" class="logo" alt="Rainydays logo">
-
+    <div>
+        
         <div class="navfooter">
             <nav>
                 <ul>
-                    <li>About</li>
+                    <h5>About</h5>
                     <li>About us</li>
                     <li>Careers</li>
                     <li>Sustainability</li>
@@ -65,16 +81,15 @@
             </nav>
             <nav>
                 <ul>
-                    <li>Account</li>
+                    <h5>Account</h5>
                     <li>Log In</li>
                     <li>Register</li>
                     <li>Membership</li>
                 </ul>
             </nav>
             <nav>
-                
                 <ul>
-                    <li>Privacy</li>
+                    <h5>Privacy</h5>
                     <li>Cookies</li>
                     <li>Cookies Settings</li>
                     <li>Privacy Policy</li>
@@ -83,7 +98,7 @@
             </nav>
             <nav>
                 <ul>
-                     <li>Costumer Care</li>
+                    <h5>Costumer Care</h5>
                     <li>Help Center</li>
                     <li>Payment</li>
                     <li>Shipping</li>
@@ -91,7 +106,6 @@
                 </ul>
             </nav>
         </div>
-    </footer>
-    
+</footer>
 </body>
 </html>

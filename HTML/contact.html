@@ -5,39 +5,55 @@
     <meta name="description" content="Contactpage for Rainydays">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9b11d6cf7e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
     <title>Contact</title>
 </head>
 <body>
     <header>
-        <img src="/images/RainyDays_Logo-kopi.png" class="logo" alt="Logo for Rainydays">
-        <form action="/search" method="get">
-             <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
-             <button type="submit">Search</button>
-        </form>
-        <div class="iconsheader">
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-         </div>
-            
-            <nav class="navbar">
-             <ul>
-                 <li class="navitem1"><a href="index.html">Home</a></li>
-                 <li class="navitem1"><a href="about-us.html" >About</a></li>
-                 <li class="navitem1">Explore</li>
-                 <li class="navitem1">Account</li>
-                 <li class="navitem1"><a href="contact.html">Contact</a></li>
-             </ul>
+        <header>
+            <div class="containerheader">
+                <div class="logoheader">
+                    <img src="/images/RainyDays_Logo-kopi.png" alt="Logo for Rainydays">
+                </div>
+                <div class="searchbar">
+                    <form action="/search" method="get">
+                    <input type="search" id="site-search" name="q" aria-label="Search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="iconsheader">
+                    <i class="fa-solid fa-user"></i>
+                    <button> 
+                        <i class="fa-solid fa-cart-shopping"> </i>
+                    </button>
+                </div>
+            </div>
+          
+            <div class="navheader">
+            <nav> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html" >About</a></li>
+                    <li><a href="index.html">Explore</a></li>
+                    <li><a href="index.html">Account</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
-     
+        </div>
+    
+        </header>
     
     <main>
+
+        <div class="containermain">
         <h1>Contact us</h1>
-        <p>At RainyDays, we're here to assist you every step of the way. If you have any questions about our products, need help with sizing, or require assistance with your order, don't hesitate to reach out to our dedicated customer service team.</p>
-        <p>You can easily get in touch with us by sending an email to support@rainydays.com or by calling our toll-free number at 1-800-RAIN-DAY. Our knowledgeable and friendly representatives are available Monday through Friday from 9 AM to 5 PM EST to address your inquiries and provide personalized assistance.</p>
-        <p>Additionally, you can visit our Frequently Asked Questions (FAQ) page on our website for quick answers to common queries. For more specific or detailed assistance, feel free to reach out to us directly, and we'll be happy to help.</p>
-        <p>Your satisfaction is our top priority, and we're committed to ensuring that your experience with RainyDays is nothing short of exceptional. Don't hesitate to contact us if you need any assistance – we're here to make your outdoor adventures enjoyable and worry-free!</p>
-        <h3>You can also reach out to us via this contact form</h3>
+        <div class="text-main">
+            <p>At RainyDays, we're here to assist you every step of the way. If you have any questions about our products, need help with sizing, or require assistance with your order, don't hesitate to reach out to our dedicated customer service team.</p>
+            <p>You can easily get in touch with us by sending an email to support@rainydays.com or by calling our toll-free number at 1-800-RAIN-DAY. Our knowledgeable and friendly representatives are available Monday through Friday from 9 AM to 5 PM EST to address your inquiries and provide personalized assistance.</p>
+            <p>Additionally, you can visit our Frequently Asked Questions (FAQ) page on our website for quick answers to common queries. For more specific or detailed assistance, feel free to reach out to us directly, and we'll be happy to help.</p>
+            <p>Your satisfaction is our top priority, and we're committed to ensuring that your experience with RainyDays is nothing short of exceptional. Don't hesitate to contact us if you need any assistance – we're here to make your outdoor adventures enjoyable and worry-free!</p>
+            <h3>You can also reach out to us via this contact form</h3>
+        </div>
         
         <form action="contact.php" method="post"></form>
             <label for="name">Name:</label><br>
@@ -46,14 +62,20 @@
             <input type="email" name="email" id="email" required><br>
             <label for="text">Text</label><br>
             <textarea name="text" id="text" cols="30" rows="10" required></textarea><br><br>
-            <input type="submit" value="Send">
+            <input type="submit" class="button-main" value="Send">
+        </div>
     </main>
+    
     <footer>
-        <p>Follow us</p>
-        <i class="fa-brands fa-facebook"></i>
+       
+        
+    <div class="logofooter">
+        <img src="/images/logohvit.png" class="logo" alt="Rainydays logo">
+    </div>
+    <p>Follow us</p>
+    <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-x-twitter"></i>
         <i class="fa-brands fa-instagram"></i>
-        <img src="/images/logohvit.png" class="logo" alt="Rainydays logo">  
         <div class="navfooter">
             <nav>
                 <ul>
